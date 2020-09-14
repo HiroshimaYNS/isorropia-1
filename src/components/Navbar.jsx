@@ -1,15 +1,17 @@
 import React from 'react';
-import '../styles/navbar.css'
+import '../styles/estilos_Inicion_Sesion/Navbar.css'
 
 class Navbar extends React.Component{
     render(){
         return(
             <div className='Navbar'>
-                <img className=''LOGO/>
+                
                 <div className='container-fluid'>
-                    <a className='Navbar__brand' href='/'>
-                        <span className='font-weight-light'>INICIO DE SESION</span>
-                    </a>
+                    <h1 className='font-italic display-5'>
+                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-left-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+                    </svg>
+                    RECETA</h1>
                 </div>
             </div>
         )
@@ -17,4 +19,3 @@ class Navbar extends React.Component{
 }
 
 export default Navbar;
-

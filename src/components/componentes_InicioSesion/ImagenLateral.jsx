@@ -1,14 +1,13 @@
 import React from 'react';
-import '../styles/ImagenLateral.css'
-import Logo from '../images/lateral.png'
+import '../../styles/estilos_Inicion_Sesion/ImagenLateral.css'
+import Logo from '../../images/imagenes_InicioSesion/Bienvenida.png'
 class ImagenLateral extends React.Component{
     render(){
         return(
             <div className="ImagenLateral">
                 <div className='ImagenLateral_header'>
-                    <img className='imagen' src={Logo} alt='Logo' height='550' width='660'/>
+                    <img className='imagen' src={Logo} alt='Logo' height='500' width='550'/>
                 </div>
-                
             </div>
         )
     }
@@ -16,6 +15,3 @@ class ImagenLateral extends React.Component{
 
 export default ImagenLateral;
 
-/*<div className='ImagenLatera__footer'>
-Politécnico Colombiano Jaime Isaza Cadavid © 2020
-</div>*/

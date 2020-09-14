@@ -1,0 +1,10 @@
+.Navbar {
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: #38f195;
+
+}
+.iniciosesion{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
