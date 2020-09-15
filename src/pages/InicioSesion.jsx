@@ -4,7 +4,7 @@ import Navbar from '../components/componentes_InicioSesion/Navbar.jsx'
 import Formulario from '../components/componentes_InicioSesion/Formulario.jsx'
 import Boton from '../components/componentes_InicioSesion/Boton.jsx'
 import ImagenLateral from '../components/componentes_InicioSesion/ImagenLateral.jsx'
-import '../styles/estilos_Inicion_Sesion/Registro.css'
+import '../styles/Registro.css'
 import Fondo from '../images/Fondo isorropia.jpg'
 import { render } from '@testing-library/react';
 

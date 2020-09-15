@@ -2,10 +2,12 @@ import React from 'react'
 import Navbar from '../components/Navbar.jsx'
 import Receta from '../components/componentes_R2/Receta.jsx'
 import Imagen from '../components/componentes_R2/Imagen.jsx'
+import Fondo from '../images/Fondo isorropia.jpg'
+import '../styles/Registro.css'
 
 function Receta1(){
     return(            
-        <div className=''>
+        <div className='componentes'>
             <Navbar />
             <div className='container'>
                 <div className='row'>
