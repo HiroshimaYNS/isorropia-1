@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar.jsx'
-import Receta from '../components/componentes_R1/Receta.jsx'
-import Imagen from '../components/componentes_R1/Imagen.jsx'
+import Receta from '../components/componentes_R5/Receta.jsx'
+import Imagen from '../components/componentes_R5/Imagen.jsx'
 import Fondo from '../images/Fondo isorropia.jpg'
 import '../styles/Registro.css'
 
-function Receta1(){
+function Receta5(){
     return(            
         <div className='componentes'>
             <div>
@@ -29,4 +29,4 @@ function Receta1(){
     )
 }
 
-export default Receta1;
+export default Receta5;

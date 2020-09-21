@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/estilos_Inicion_Sesion/Formulario.css'
+import '../../styles/Inicio_Sesion.css'
 import Receta1 from '../../pages/Receta1.jsx'
 
 
@@ -11,21 +11,27 @@ class Formulario extends React.Component{
     render(){
         return(
             <div>
+                <br/>
+                <br/>
+                <br/>
                 <div className='centrado'>
                 <h1 className='formuregistro'>Crea tu cuenta</h1>              
                 <form className='form-group'>
                     <div className='form-group'>
+                        <br/>
                     
                     <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-                <div class="input-group-append">
-                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                    <input type="text" class="form-control" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                {/* <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">@ejemplo</span>
+                </div> */}
                 </div>
-                </div>
+                
                 <div class="input-group mb-3">
-                    <input type="password" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                    <input type="password" class="form-control" placeholder="Contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
                 
                 </div>
+                <br/>
                         
                         
 

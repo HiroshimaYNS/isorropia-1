@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/estilos_Inicion_Sesion/Boton.css'
+import '../../styles/Inicio_Sesion.css'
 
 class Boton extends React.Component{
     render(){

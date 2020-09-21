@@ -2,7 +2,7 @@ import React from 'react';
 //Componentes
 import Navbar from '../components/componentes_InicioSesion/Navbar.jsx'
 import Formulario from '../components/componentes_InicioSesion/Formulario.jsx'
-import Boton from '../components/componentes_InicioSesion/Boton.jsx'
+/*import Boton from '../components/componentes_InicioSesion/Boton.jsx'*/
 import ImagenLateral from '../components/componentes_InicioSesion/ImagenLateral.jsx'
 import '../styles/Registro.css'
 import Fondo from '../images/Fondo isorropia.jpg'
@@ -18,7 +18,7 @@ function InicioSesion(){
                     <div className='row'>
                     <div className='col-6'>
                     <Formulario />
-                    <Boton />
+                    {/*<Boton /> */}
                     </div>
                     <div className='col-6'>
                     <ImagenLateral/>

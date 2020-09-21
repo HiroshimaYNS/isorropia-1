@@ -5,7 +5,7 @@ import '../../styles/estilos_recetas/Imagen.css'
 class Imagen extends React.Component{
     render(){
         return(
-            <div className='tomate'>
+            <div className='imgR'>
                 <div>
                 <img className='imagen' src={TomateRellano} alt='TomateRelleno' height='300' width='300'/>
                 </div>

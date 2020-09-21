@@ -1,17 +1,26 @@
 import React from 'react';
-import '../styles/estilos_Inicion_Sesion/Navbar.css'
+import '../styles/Inicio_Sesion.css'
 
-class Navbar extends React.Component{
-    render(){
-        return(
+class Navbar extends React.Component {
+    render() {
+        return (
             <div className='Navbar'>
-                
-                <div className='container-fluid'>
-                    <h1 className='font-italic display-5'>
-                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-left-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
-                    </svg>
-                    RECETA</h1>
+
+                <div class="fixed-top">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="NavbarR p-4">
+                            <button>
+
+                            </button>
+                            <h5 class="text-white h4">Collapsed content</h5>
+                            
+                        </div>
+                    </div>
+                    <nav class="NavbarR navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </nav>
                 </div>
             </div>
         )

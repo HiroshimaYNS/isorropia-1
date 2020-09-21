@@ -18,7 +18,8 @@ class Receta extends React.Component{
                     <li>Queso light (o Normal)</li>
                     </lo>
                 </div>
-                <div className='peo'>
+                <br/>
+                <div className='pasos'>
                     <h3>¿Que hacer tomate relleno paso a paso</h3>
                     <p className='texto'>
                     Para hacer nuestro tomate relleno lo primero que tenemos que

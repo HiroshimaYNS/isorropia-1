@@ -20,6 +20,7 @@ class Receta2 extends React.Component{
                     <li>Tortitas integrales</li>
                     </lo>
                 </div>
+                <br/>
                 <div className='pasos'>
                     <h3>¿Cómo hacer los rollitos de verdura integrales paso a paso?</h3>
                     <lo>

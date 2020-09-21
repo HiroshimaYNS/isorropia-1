@@ -10,6 +10,9 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import InicioSesion from '../src/pages/InicioSesion.jsx'
 import Receta1 from '../src/pages/Receta1.jsx'
 import Receta2 from '../src/pages/Receta2.jsx'
+import Receta3 from '../src/pages/Receta3.jsx';
+import Receta4 from '../src/pages/Receta4.jsx';
+import Receta5 from '../src/pages/Receta5.jsx';
 
 
 ReactDOM.render(
@@ -27,6 +30,24 @@ ReactDOM.render(
 ReactDOM.render(
     <>
     <Receta2/>
+    </>,
+    document.getElementById('root')
+);
+ReactDOM.render(
+    <>
+    <Receta3/>
+    </>,
+    document.getElementById('root')
+);
+ReactDOM.render(
+    <>
+    <Receta4/>
+    </>,
+    document.getElementById('root')
+);
+ReactDOM.render(
+    <>
+    <Receta5/>
     </>,
     document.getElementById('root')
 );

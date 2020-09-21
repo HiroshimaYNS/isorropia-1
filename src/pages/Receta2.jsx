@@ -5,10 +5,14 @@ import Imagen from '../components/componentes_R2/Imagen.jsx'
 import Fondo from '../images/Fondo isorropia.jpg'
 import '../styles/Registro.css'
 
-function Receta1(){
+function Receta2(){
     return(            
         <div className='componentes'>
+            <div>
             <Navbar />
+            </div>
+            <br/>
+            <br/>
             <div className='container'>
                 <div className='row'>
                 <div className='col-6'>
@@ -16,6 +20,8 @@ function Receta1(){
                 </div>
                 </div>
             </div>
+            <br/>
+            <br/>
             <div>
                 <Imagen/>
             </div>
@@ -23,4 +29,4 @@ function Receta1(){
     )
 }
 
-export default Receta1;
+export default Receta2;

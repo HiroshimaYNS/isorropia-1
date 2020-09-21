@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/estilos_Inicion_Sesion/ImagenLateral.css'
+import '../../styles/Inicio_Sesion.css'
 import Logo from '../../images/imagenes_InicioSesion/Bienvenida.png'
 class ImagenLateral extends React.Component{
     render(){
