@@ -5,8 +5,8 @@ class ImagenLateral extends React.Component{
     render(){
         return(
             <div className="ImagenLateral">
-                <div className='ImagenLateral_header'>
-                    <img className='imagen' src={Logo} alt='Logo' height='500' width='550'/>
+                <div className='ImagenLateral'>
+                    <img className='imagen img-fluid' src={Logo} alt='Logo' height='500' width='550'/>
                 </div>
             </div>
         )

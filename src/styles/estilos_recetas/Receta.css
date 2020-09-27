@@ -1,3 +1,28 @@
+.ingredientes{
+    color: white;
+}
 .pasos{
-    width: 200%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.NavbarR{
+    background-color: teal;
+    overflow: hidden;
+}
+
+.menu{
+    float: right;
+}
+.TReceta{
+    float: left;    
+}
+
+.fondi{
+    background-color: rgb(41, 41, 41);
+    overflow: hidden;
+}
+.titulo{
+    color: white;
+    text-align: center;
 }

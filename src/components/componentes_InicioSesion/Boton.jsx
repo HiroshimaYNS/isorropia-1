@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/Inicio_Sesion.css'
-
+/*
 class Boton extends React.Component{
     render(){
         return(
@@ -16,4 +16,4 @@ class Boton extends React.Component{
         )
     }
 }
-export default Boton;
+export default Boton;*/

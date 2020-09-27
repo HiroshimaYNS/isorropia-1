@@ -6,61 +6,42 @@
     margin-left: 77px;
     
 }
+
 /*Formulario*/
-.centradito{
-    margin: 0 auto;
-    width: 70%;
-}
-.juas{
-    margin-left: 115px;
-}
 .formuregistro{
     color: white;
+    text-align: center;
 }
 .centrado{
     background-color: rgb(53, 53, 53);
+    border-radius: 30px;
     margin: 0 auto;
-    width: 80%;
-    border-radius: 5px; 
+    width: 80%; 
     margin-top: 50px;
+    float: left;
+    overflow: hidden;
 }
-.ImagenLateral_header {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
+
+/*Imagen Lateral*/
+.imagen{
+    float: right;
 }
 /*Inicio sesion*/
-btn btn-primary{
-    display: inline-flexbox;
-}
 .btncentrado{
     margin-left: 77px;
-    
 }
 .centradito{
     margin: 0 auto;
     width: 70%;
 }
-.juas{
-    margin-left: 115px;
-}
-.formuregistro{
-    color: white;
-}
-.centrado{
-    background-color: rgb(53, 53, 53);
-    margin: 0 auto;
-    width: 80%;
-    border-radius: 5px; 
-    margin-top: 50px;
-}
-.ImagenLateral_header {
+.ImagenLateral {
     display: block;
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
+    float: right;
 }
+
 /*Navbar*/
 .Navbar {
     width: 100%;
@@ -68,11 +49,15 @@ btn btn-primary{
     background-color:  #1BCC7E;
     border-radius: 10px;
 }
+
 .iniciosesion{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
 }
-/*Navbar recetas (Pasar)*/
-.NavbarR{
-    background-color: #1BCC7E;
+.fondi{
+    background-color: rgb(41, 41, 41);
+    overflow: hidden;
 }
+
+
+
