@@ -7,9 +7,9 @@ class Receta4 extends React.Component{
         return(
             <div className=''>
                 <div>
-                <h1>Ensalada mediterranea</h1>
+                <h1 className='titulo'>Ensalada mediterranea</h1>
                 </div>
-                <div>
+                <div className='ingredientes'>
                     <h2>Ingredientes</h2>
                     <lo>
                     <li>Rabanos al gusto</li>

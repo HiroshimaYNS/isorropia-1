@@ -6,8 +6,8 @@ class Imagen extends React.Component{
     render(){
         return(
             <div className='imgR'>
-                <div>
-                <img className='imagen' src={Smoothie} alt='Smoothie' height='300' width='300'/>
+                <div className='row justify-content-center h-100'>
+                <img className='imagenR img-fluid' src={Smoothie} alt='Smoothie' height='300' width='300'/>
                 </div>
             </div>
         )

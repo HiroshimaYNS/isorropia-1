@@ -6,8 +6,8 @@ class Receta extends React.Component{
     render(){
         return(
             <div className=''>
-                <h1>Tomate Rellano</h1>
-                <div>
+                <h1 className='titulo'>Tomate Rellano</h1>
+                <div className='ingredientes'>
                     <h2>Ingredientes</h2>
                     <lo>
                     <li>Tomate</li>

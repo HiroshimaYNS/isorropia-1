@@ -7,10 +7,10 @@ class Receta3 extends React.Component{
         return(
             <div className=''>
                 <div>
-                <h1>Rollitos de verduras integrales</h1>
+                <h1 className='titulo'>Rollitos de verduras integrales</h1>
                 </div>
                 <br/>
-                <div>
+                <div className='ingredientes'>
                     <h2>Ingredientes</h2>
                     <lo>
                     <li>Calabacin</li>
