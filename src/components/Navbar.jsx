@@ -13,6 +13,7 @@ class Navbar extends React.Component {
 
                             </button>
                             <h5 class="text-white h4">Collapsed content</h5>
+                            <h5 class="text-white h4">Usuario</h5>
                             
                         </div>
                     </div>

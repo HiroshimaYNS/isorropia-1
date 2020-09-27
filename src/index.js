@@ -13,9 +13,10 @@ import Receta2 from '../src/pages/Receta2.jsx'
 import Receta3 from '../src/pages/Receta3.jsx';
 import Receta4 from '../src/pages/Receta4.jsx';
 import Receta5 from '../src/pages/Receta5.jsx';
+import Usuario from './pages/Usuario';
 
 
-ReactDOM.render(
+/*ReactDOM.render(
     <>
     <InicioSesion/>
     </>,
@@ -48,6 +49,12 @@ ReactDOM.render(
 ReactDOM.render(
     <>
     <Receta5/>
+    </>,
+    document.getElementById('root')
+);*/
+ReactDOM.render(
+    <>
+    <Usuario/>
     </>,
     document.getElementById('root')
 );
