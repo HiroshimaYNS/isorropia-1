@@ -9,7 +9,7 @@ function Receta3(){
     return(            
         <div className='fondi componentes'>
             <div>
-            <Navbar />
+            <Navbar menu='Receta 3'/>
             </div>
             <br/>
             <br/>

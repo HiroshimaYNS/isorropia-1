@@ -26,7 +26,7 @@ function Aplicacion(){
             <Route exact path = '/receta/3' component = {Receta3} />
             <Route exact path = '/receta/4' component = {Receta4} />
             <Route exact path = '/receta/5' component = {Receta5} />
-            <Route exact path = '/usuario' component = {Usuario} />
+            <Route exact path = '/perfil' component = {Usuario} />
 
         </Switch>   
         </LayoutR> 

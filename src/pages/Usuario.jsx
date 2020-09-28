@@ -7,8 +7,8 @@ import '../styles/Usuario.css'
 
 function Usuario(){
     const elements = [1, 2, 3, 4, 5];
-    const listItems = elements.map((elements) =>
-        <tr>
+    const listItems = elements.map((element) =>
+        <tr key={element}>
             <th scope="row"></th>
             <td></td>
         </tr>
@@ -16,7 +16,7 @@ function Usuario(){
     return(            
         <div className='componentes'>
             <div>
-            <Navbar />
+            <Navbar menu='Perfil'/>
             </div>
             <div className='container'>
                 <div>

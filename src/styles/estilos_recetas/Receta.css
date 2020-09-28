@@ -15,7 +15,8 @@
     float: right;
 }
 .TReceta{
-    float: left;    
+    text-align: center;
+    color: white;
 }
 
 .fondi{
@@ -25,4 +26,40 @@
 .titulo{
     color: white;
     text-align: center;
+}
+
+.navbar-style {
+    padding: 5px 0;
+}
+
+.hamburguesa {
+    border: initial;
+}
+
+.hamburguesa:focus {
+    outline: initial;
+}
+
+.white {
+    color: #ffffffd4;
+}
+
+.white:hover {
+    color: #ffffff;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.dropdown-menu {
+    position: relative !important;
+    top: -40px !important;
+    float: right !important;
+}
+
+.boton-atras {
+    padding: 0 .75rem;
+    float: left;
+    font-size: 1.25rem;
 }
