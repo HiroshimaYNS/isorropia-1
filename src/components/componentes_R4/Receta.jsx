@@ -21,7 +21,7 @@ class Receta4 extends React.Component{
                 </div>
                 <br/>
                 <div className='pasos'>
-                    <h3>¿Cómo hacer Ensalada mediterranea?</h3>
+                    <h3>Cómo hacer Ensalada mediterranea</h3>
                     <lo>
                     <li>Picamos todo al gusto, ya sea grueso o delgado,
                         se recomienda que no sea muy grueso para disfrutar mas

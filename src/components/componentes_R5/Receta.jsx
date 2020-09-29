@@ -20,7 +20,7 @@ class Receta5 extends React.Component{
                 </div>
                 <br/>
                 <div className='pasos'>
-                    <h3>¿Cómo hacer Ensalada mediterrane?</h3>
+                    <h3>Cómo hacer Smoothie de mango</h3>
                     <lo>
                     <li>Licúa el hielo con el mango, el yogur y el néctar. 
                         Sirve en un vaso y decora con fruta a tu gusto 
