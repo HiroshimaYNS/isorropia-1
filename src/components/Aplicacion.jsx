@@ -10,6 +10,7 @@ import Receta2 from '../pages/Receta2.jsx'
 import Receta3 from '../pages/Receta3.jsx'
 import Receta4 from '../pages/Receta4.jsx'
 import Receta5 from '../pages/Receta5.jsx'
+import Usuario from '../pages/Usuario.jsx';
 
 
 function Aplicacion(){
@@ -25,6 +26,7 @@ function Aplicacion(){
             <Route exact path = '/receta/3' component = {Receta3} />
             <Route exact path = '/receta/4' component = {Receta4} />
             <Route exact path = '/receta/5' component = {Receta5} />
+            <Route exact path = '/perfil' component = {Usuario} />
 
         </Switch>   
         </LayoutR> 

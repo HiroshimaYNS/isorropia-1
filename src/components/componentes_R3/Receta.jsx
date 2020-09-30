@@ -14,7 +14,7 @@ class Receta3 extends React.Component{
                     <h2>Ingredientes</h2>
                     <lo>
                     <li>Calabacin</li>
-                    <li>Tomates charry</li>
+                    <li>Tomates cherry</li>
                     <li>atún o tiras de pollo</li>
                     <li>Especias italianas</li>
                     <li>Especias italianas</li>
@@ -23,7 +23,7 @@ class Receta3 extends React.Component{
                 </div>
                 <br/>
                 <div className='pasos'>
-                    <h3>¿Cómo hacer los Espaguetis de calabacín?</h3>
+                    <h3>Cómo hacer los Espaguetis de calabacín</h3>
                     <lo>
                     <li>Comenzamos nuestra receta de espaguetis de calabacín 
                         cortando la verdura el tiras finas y largas, 

@@ -31,7 +31,7 @@ class FormularioR extends React.Component {
                         <input type="password" class="form-control" placeholder="Confirmar Contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     </div>
                     <br/>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block">Registrarse</button>
+                    <button type="button" class="res btn-secondary btn-lg btn-block">Registrarse</button>
                     <br/>
                     
                 </div>

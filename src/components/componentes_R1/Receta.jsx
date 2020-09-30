@@ -6,7 +6,7 @@ class Receta extends React.Component{
     render(){
         return(
             <div className=''>
-                <h1 className='titulo'>Tomate Rellano</h1>
+                <h1 className='titulo'>Tomate Relleno</h1>
                 <div className='ingredientes'>
                     <h2>Ingredientes</h2>
                     <lo>
@@ -20,7 +20,7 @@ class Receta extends React.Component{
                 </div>
                 <br/>
                 <div className='pasos'>
-                    <h3>¿Que hacer tomate relleno paso a paso</h3>
+                    <h3>Cómo hacer tomate relleno paso a paso</h3>
                     <p className='texto'>
                     Para hacer nuestro tomate relleno lo primero que tenemos que
                     hacer es cortar la cabeza del tomate y dejarlo hueco con la ayuda de un cuchillo. 

@@ -21,7 +21,7 @@ class Receta2 extends React.Component{
                 </div>
                 <br/>
                 <div className='pasos'>
-                    <h3>¿Cómo hacer los rollitos de verdura integrales paso a paso?</h3>
+                    <h3>Cómo hacer los rollitos de verdura integrales paso a paso</h3>
                     <lo>
                     <li>Lo primero será cortar 1 pimiento verde y 1 pimiento rojo 
                         en tiras y ponerlos en la sartén con poco aceite (a modo wok).</li>
