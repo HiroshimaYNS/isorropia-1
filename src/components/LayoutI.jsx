@@ -1,12 +1,14 @@
 import React from 'react'
-import Navbar from './componentes_InicioSesion/Navbarjsx'
+import Navbar from './componentes_InicioSesion/Navbar.jsx'
 
-function LayoutR(props){
+function LayoutI(props){
     return(
         <React.Fragment>
+          
         <Navbar/>
         {props.children}
+        
         </React.Fragment>
     )
 }
-export default LayoutR;
+export default LayoutI;

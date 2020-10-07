@@ -38,8 +38,10 @@ class Formulario extends React.Component{
                     
                         <Link to="/inicio/registro"><button className='btn btn-primary'> Registrarse </button></Link>
                     </div>
+                    
                 
                 </div>
+                
             </div>
         
         );

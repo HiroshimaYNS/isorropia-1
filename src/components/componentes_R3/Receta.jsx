@@ -7,7 +7,7 @@ class Receta3 extends React.Component{
         return(
             <div className=''>
                 <div>
-                <h1 className='titulo'>Rollitos de verduras integrales</h1>
+                <h1 className='titulo'>Espaguetis de calabacín</h1>
                 </div>
                 <br/>
                 <div className='ingredientes'>

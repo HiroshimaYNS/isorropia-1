@@ -49,15 +49,14 @@
     background-color:  #1BCC7E;
     border-radius: 10px;
 }
-
+body{
+    background: rgb(41, 41, 41);
+}
 .iniciosesion{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
 }
-.fondi{
-    background-color: rgb(41, 41, 41);
-    overflow: hidden;
-}
+
 
 
 

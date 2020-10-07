@@ -16,8 +16,8 @@
     margin-top: 100px;
 }
 .res:hover {
-    box-shadow: inset 0 0 20px rgb(0, 255, 255), 0 0 20px cyan;
+    box-shadow: inset 0 0 20px teal, 0 0 20px cyan;
     outline-color: rgba(49, 138, 172, 0);
     outline-offset: 80px;
     text-shadow: 1px 1px 6px rgb(255, 255, 255);
-  }
+}
