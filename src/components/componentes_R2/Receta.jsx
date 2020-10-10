@@ -10,6 +10,7 @@ class Receta2 extends React.Component{
                 <h1 className='titulo'>Rollitos de verduras integrales</h1>
                 </div>
                 <div className='ingredientes'> 
+                <br/>
                     <lo>
                     <li>1 pimiento verde</li>
                     <li>1 pimiento rojo</li>

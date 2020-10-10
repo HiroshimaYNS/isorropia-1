@@ -1,7 +1,7 @@
 import React from 'react'
 import InfoUsuario from '../components/componentes_Usuario/InfoUsuario.jsx'
 import TablaRutina from '../components/componentes_Usuario/TablaRutina.jsx'
-import Navbar from '../components/Navbar.jsx'
+import Navbar from '../components/NavbarT.jsx'
 
 import '../styles/Usuario.css'
 
@@ -18,7 +18,7 @@ function Usuario(){
             <div>
             <Navbar menu='Perfil'/>
             </div>
-            <div className='container'>
+            <div className='container nombre'>
                 <div>
                     <InfoUsuario username='Juan Diego Buitrago Castro'/>
                 </div>

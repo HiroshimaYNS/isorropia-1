@@ -1,23 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .fondito1{
     background-color: rgb(41, 41, 41);
     display: flex;
     width: 100%;
     overflow: hidden;
 }
-
-/*Cajas*/
-.contenedor{
-    width: 1100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.maso{
+    margin-top: 40px;
 }
-.contenedor .cardM{
+/*Bienvenido*/
+.contenido{
+    text-align: center;
+}
+.contenido span{
+    text-transform: uppercase;
+    display: block;
+}
+.Bienvenido{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    background: rgb(41, 41, 41);
+    position: relative;
+    animation: text 3s 1;
+}
+/*Decoracion Isorropia(Nombre)*/
+.text2{
+    font-family: 'Lobster', cursive;
+    padding:0 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 20px teal;
+}
+@keyframes text{
+    0%{
+        color:black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+/*Cajas*/
+.contianer .cardM{
     position: relative;
     width: 300px;
     height: 400px;
-    background: teal;
+    background: rgb(0, 95, 95);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,13 +61,13 @@
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
-.contenedor:hover .cardM{
+.contianer:hover .cardM{
     opacity: 0.2s;
 }
-.contenedor .cardM:hover{
+.contianer .cardM:hover{
     opacity: 1;
 }
-.contenedor .cardM::before{
+.contianer .cardM::before{
     content: '';
     position: absolute;
     top: 2px;
@@ -41,37 +77,26 @@
     background: rgba(255, 255, 255, 0.1);
     pointer-events: none;
 }
-.contenedor .cardM .content{
+.contianer .cardM .content{
     padding: 30px;
     text-align: center;
 }
-.contenedor .cardM .content h2{
+.contianer .cardM .content h2{
     position: absolute;
     right: 30px;
     font-size: 4em;
     font-weight: 800;
-    color: darkmagenta;
+    color: rgb(0, 174, 255);
     z-index: 1;
     opacity: 0.1;
     transition: 0.5s;
 }
-.contenedor .cardM:hover .content h2{
+.contianer .cardM:hover .content h2{
     opacity: 1;
     transform: translateY(-70px);
 }
-.contenedor .cardM .content h3{
-    position: relative;
-    font-size: 1.5em;
-    color: white;
-    z-index: 2;
-    opacity: 0.5;
-    letter-spacing: 1px;
-    transform: 0.5s;
-}
-.contenedor .cardM:hover .content h3{
-    opacity: 1;
-}
-.contenedor .cardM .content p{
+
+.contianer .cardM .content p{
     position: relative;
     font-size: 1em;
     color: white;
@@ -81,34 +106,34 @@
     letter-spacing: 1px;
     transform: 0.5s;
 }
-.contenedor .cardM:hover .content h3,
-.contenedor .cardM:hover .content p{
+.contianer .cardM:hover .content h3,
+.contianer .cardM:hover .content p{
     opacity: 1;
 }
-.contenedor .cardM .content a{
+.contianer .cardM .content a{
     display: inline-block;
     margin-top: 15px;
     padding: 8px 15px;
-    background: white;
-    color: black;
+    background: rgb(3, 156, 105);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
 }
-.contenedor .cardM span{
+.contianer .cardM span{
     transition: 0.5s;
     opacity: 0;
 }
-.contenedor .cardM:hover span{
+.contianer .cardM:hover span{
     opacity: 1;
 }
-.contenedor .cardM span:nth-child(1){
+.contianer .cardM span:nth-child(1){
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 3px;
-    background: linear-gradient(to right, transparent, #ffffff);
+    height: 6px;
+    background: linear-gradient(to right, transparent, #00FFFF);
     animation: animate1 2s linear infinite;
 }
 @keyframes animate1{
@@ -119,13 +144,13 @@
         transform: translateX(100%);
     }
 }
-.contenedor .cardM span:nth-child(2){
+.contianer .cardM span:nth-child(2){
     position: absolute;
     top: 0;
     right: 0;
-    width: 3px;
+    width: 6px;
     height: 100%;
-    background: linear-gradient(to bottom, transparent, #ff1717);
+    background: linear-gradient(to bottom, transparent, #00FFFF);
     animation: animate2 2s linear infinite;
     animation-delay: 1s;
 }
@@ -137,13 +162,13 @@
         transform: translateY(100%);
     }
 }
-.contenedor .cardM span:nth-child(3){
+.contianer .cardM span:nth-child(3){
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 3px;
-    background: linear-gradient(to left, transparent, #ff1717);
+    height: 6px;
+    background: linear-gradient(to left, transparent,#00FFFF);
     animation: animate3 2s linear infinite;
 }
 @keyframes animate3{
@@ -154,13 +179,13 @@
         transform: translateX(-100%);
     }
 }
-.contenedor .cardM span:nth-child(4){
+.contianer .cardM span:nth-child(4){
     position: absolute;
     top: 0;
     left: 0;
-    width: 3px;
+    width: 6px;
     height: 100%;
-    background: linear-gradient(to top, transparent, #ff1717);
+    background: linear-gradient(to top, transparent, #00FFFF);
     animation: animate4 2s linear infinite;
     animation-delay: 1s;
 }

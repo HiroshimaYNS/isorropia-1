@@ -8,6 +8,7 @@ class Receta extends React.Component{
             <div className=''>
                 <h1 className='titulo'>Tomate Relleno</h1>
                 <div className='ingredientes'>
+                    <br/>
                     <h2>Ingredientes</h2>
                     <lo>
                     <li>Tomate</li>

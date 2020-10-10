@@ -10,6 +10,7 @@ class Receta5 extends React.Component{
                 <h1 className='titulo'>Smoothie de mango</h1>
                 </div>
                 <div className='ingredientes'>
+                    <br/>
                     <h2>Ingredientes</h2>
                     <lo>
                     <li>1 mango mediano</li>

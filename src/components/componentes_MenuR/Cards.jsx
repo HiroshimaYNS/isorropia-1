@@ -18,6 +18,7 @@ class Tarjeta  extends React.Component{
                         <div className ='contentbox'>
                             <h3>Tomate relleno</h3>
                             <a href="/receta/1" className='buy'>Ver</a>
+                            <a href="/receta/1" className='buy'>Guardar</a>
                         </div>
                     </div>
                     <div className = 'card mr-3 mb-3'>
@@ -27,6 +28,7 @@ class Tarjeta  extends React.Component{
                         <div className ='contentbox'>
                             <h3>Rollitos de verduras integrales</h3>
                             <a href="/receta/2" className='buy'>Ver</a>
+                            <a href="/receta/1" className='buy'>Guardar</a>
                         </div>
                     </div>
 
@@ -37,6 +39,7 @@ class Tarjeta  extends React.Component{
                         <div className ='contentbox'>
                             <h3>Espaguetis de calabacín</h3>
                             <a href="/receta/3" className='buy'>Ver</a>
+                            <a href="/receta/1" className='buy'>Guardar</a>
                         </div>
                     </div>
                     <div className = 'card mb-3'>
@@ -46,6 +49,7 @@ class Tarjeta  extends React.Component{
                         <div className ='contentbox'>
                             <h3>Ensalada mediterranea</h3>
                             <a href="/receta/4" className='buy'>Ver</a>
+                            <a href="/receta/1" className='buy'>Guardar</a>
                         </div>
                     </div>
                     <div className = 'card mb-3 mr-3'>
@@ -55,6 +59,7 @@ class Tarjeta  extends React.Component{
                         <div className ='contentbox'>
                             <h3>Smoothie de mango</h3>
                             <a href="/receta/5" className='buy'>Ver</a>
+                            <a href="/receta/1" className='buy'>Guardar</a>
                         </div>
                     </div>
                     {/*

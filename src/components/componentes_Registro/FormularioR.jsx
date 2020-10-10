@@ -1,19 +1,16 @@
 import React from 'react';
 import '../../styles/Registro.css'
-
 import { Link } from 'react-router-dom'
 
 
 
 class FormularioR extends React.Component {
-    // handleChange = (e) => {
-    //     console.log({value: e.target.value});
-    //}
 
     render() {
         return (
             <div className='cuadroR row justify-content-center h-100'>
                 <div className=''>
+                    <h1 className='formuregistro'>REGISTRATE</h1>
                     <div class="nombre input-group mb-3">
                         <input type="text" class="form-control" placeholder="Nombre" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     </div>
@@ -31,7 +28,8 @@ class FormularioR extends React.Component {
                         <input type="password" class="form-control" placeholder="Confirmar Contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     </div>
                     <br/>
-                    <button type="button" class="res btn-secondary btn-lg btn-block">Registrarse</button>
+                    
+                    <Link to="/menu"><button type="" class="res btn-secondary btn-lg btn-block">Registrarse</button></Link>
                     <br/>
                     
                 </div>

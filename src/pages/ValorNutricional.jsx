@@ -1,8 +1,6 @@
 import React from 'react'
 import NavbarT from '../components/NavbarT.jsx'
-import Receta from '../components/componentes_R1/Receta.jsx'
-import Imagen from '../components/componentes_R1/Imagen.jsx'
-import BotonV from '../components/componentes_R1/Boton'
+import VNutricional from '../components/componentes_R1/ValorNutricional'
 import '../styles/estilos_recetas/Receta.css'
 import '../styles/estilos_recetas/Receta.css'
 
@@ -10,17 +8,15 @@ function Receta1(){
     return(            
         <div className='fondi componentes'>
             <div className=''>
-            <NavbarT className='polo' menu='Receta 1' />
+            <NavbarT className='polo'/>
             </div>
             <br/>
             <br/>
             <div className='container'>
-                <Receta/>
-                <BotonV/>
-                <Imagen/>
+                <VNutricional/>
             </div>
-            <br/>
-            <br/>
+            
+            
         </div>
     )
 }

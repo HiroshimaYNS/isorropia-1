@@ -6,9 +6,6 @@ import Formulario from '../components/componentes_InicioSesion/Formulario.jsx'
 import ImagenLateral from '../components/componentes_InicioSesion/ImagenLateral.jsx'
 import '../styles/Inicio_Sesion.css'
 
-import { render } from '@testing-library/react';
-
-
 
 function InicioSesion(){
         return(            
@@ -19,12 +16,11 @@ function InicioSesion(){
                     <div className='col-md-6 col-sm-12'>
                     <Formulario />
                     {/*<Boton /> */}
-                    
+
                     </div>
                     <ImagenLateral/>
                     </div>
             </div> 
-            
             </div>
         )
 }

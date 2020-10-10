@@ -1,8 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar.jsx'
+import Navbar from '../components/NavbarT.jsx'
 import Receta from '../components/componentes_R3/Receta.jsx'
 import Imagen from '../components/componentes_R3/Imagen.jsx'
-import Fondo from '../images/Fondo isorropia.jpg'
 import '../styles/estilos_recetas/Receta.css'
 
 function Receta3(){

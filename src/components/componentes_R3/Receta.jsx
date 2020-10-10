@@ -11,6 +11,7 @@ class Receta3 extends React.Component{
                 </div>
                 <br/>
                 <div className='ingredientes'>
+                    <br/>
                     <h2>Ingredientes</h2>
                     <lo>
                     <li>Calabacin</li>
