@@ -19,7 +19,7 @@ class Formulario extends React.Component{
                     <div className='form-group'>
                         <br/>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                    <input type="text1" class="form-control" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
                 </div>
                 <div class="input-group mb-3">
                     <input type="password" class="form-control" placeholder="Contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2"/>

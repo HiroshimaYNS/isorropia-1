@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .fondito1{
-    background-color: rgb(41, 41, 41);
+    background: rgb(20, 20, 20);
     display: flex;
     width: 100%;
     overflow: hidden;
@@ -22,7 +22,7 @@
     font-weight: 600;
     letter-spacing: 8px;
     margin-bottom: 10px;
-    background: rgb(41, 41, 41);
+    background: rgb(20, 20, 20);
     position: relative;
     animation: text 3s 1;
 }
@@ -86,7 +86,7 @@
     right: 30px;
     font-size: 4em;
     font-weight: 800;
-    color: rgb(0, 174, 255);
+    color: rgb(0, 192, 192);
     z-index: 1;
     opacity: 0.1;
     transition: 0.5s;

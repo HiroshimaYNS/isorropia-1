@@ -12,18 +12,18 @@
     text-align: center;
 }
 
-.box {
-    border: 1px solid #EC8800;
+.cajitaU {
+    border: 1px solid teal;
     text-align: center;
 }
 
 .table-orange thead {
-    background-color: #EC8800;
+    background-color: teal;
     text-align: center;
 }
 
 .table-orange tbody {
-    background-color: rgba(236, 136, 0, 0.54);
+    background-color: rgb(9, 90, 90);
 }
 .nombre{
     color: white;

@@ -1,23 +1,86 @@
-.fondo{
-    background-color: rgb(41, 41, 41);
-    overflow: hidden;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
 .formuregistro{
     color: white;
     text-align: center;
 }
 .cuadroR{
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(29, 29, 29);
     margin: 0 auto;
     width: 50%;
-    border-radius: 30px; 
+    border-radius: 10px; 
     margin-top: 100px;
+    overflow: hidden;
 }
 .isorropia{
     color: white;
     text-align: center;
     float: left;
+}
+.BotonR{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.BotonR:hover{
+    color: #ffffff;
+    background: teal;
+    box-shadow: 0 0 10px teal, 0 0 40px teal, 0 0 80px teal;
+    transition-delay: 1s;
+}
+.BotonR span{
+    position: absolute;
+    display: block;
+}
+.BotonR span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, teal);
+}
+.BotonR:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+.BotonR span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,teal);
+}
+.BotonR:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.BotonR span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, teal);
+}
+.BotonR:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.BotonR span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, teal);
+}
+.BotonR:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
 }

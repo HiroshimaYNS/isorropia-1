@@ -19,7 +19,7 @@
 }
 
 .fondi{
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(20, 20, 20);
     overflow: hidden;
 }
 .titulo{
@@ -61,6 +61,43 @@
     float: left;
     font-size: 1.25rem;
 }
+/*Barra de busqueda*/
+.box{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+input[type="text"]{
+    background: #fff;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+input[type="submit"]{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+    background: #46443f;
+    color: #fff;
+}
+input[type="submit"]:hover{
+    background: rgb(3, 190, 190);
+}
 
 /*Boton Valor Nutricional*/
 .gira{
@@ -94,7 +131,7 @@
     left: -100%;
     width: 100%;
     height: 2px; 
-    background: linear-gradient(90deg, transparent, #03e9f4);
+    background: linear-gradient(90deg, transparent, teal);
     animation: animacion1 1s linear infinite;
     
 }
@@ -111,7 +148,7 @@
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #03e9f4);
+    background: linear-gradient(180deg, transparent, teal);
     animation: animacion2 1s linear infinite;
     animation-delay: 0.25s;
 }
@@ -128,7 +165,7 @@
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #03e9f4);
+    background: linear-gradient(270deg, transparent, teal);
     animation: animacion3 1s linear infinite;
     animation-delay: 0.5s;
 }
@@ -145,7 +182,7 @@
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #03e9f4);
+    background: linear-gradient(360deg, transparent, teal);
     animation: animacion4 1s linear infinite;
     animation-delay: 0.7s;
 }

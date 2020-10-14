@@ -11,6 +11,9 @@ const Video = () => {
             width = '100%'
             height = '400px'
             controls = {true}
+            onPlay = {()=>alert('Rutina iniciada')}
+            onPause = {()=>alert('No te rindas ¡tu puedes!')}
+            onEnded = {()=>alert('Haz finalizado tu rutina')}
             />
         </div>
     )

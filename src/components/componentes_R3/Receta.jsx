@@ -18,7 +18,6 @@ class Receta3 extends React.Component{
                     <li>Tomates cherry</li>
                     <li>atún o tiras de pollo</li>
                     <li>Especias italianas</li>
-                    <li>Especias italianas</li>
                     <li>Queso light</li>
                     </lo>
                 </div>
@@ -33,7 +32,6 @@ class Receta3 extends React.Component{
                         cocinamos a la plancha en una sartén. Cuando ya estén hechos, 
                         añadimos las tiras de calabacín a la sartén, sazonamos con las especias italianas 
                         que más nos gusten y removemos hasta que todo quede bien mezclado</li>
-                    
                     </lo>                    
                 </div>
             </div>

@@ -8,7 +8,7 @@ class Navbar extends React.Component {
             <div className=''>
                 <nav class="Navbar navbar navbar-light ">
                     <a class="navbar-brand" href="#">
-                    <p className ='isorropia'>
+                    <p className ='isorropia ml-4'>
                     ISORROPIA
                     </p>
                         <img className='imagen' src={Logo} alt='Logo' width="30" height="30" loading="lazy" />

@@ -6,7 +6,7 @@ class TablaRutina extends React.Component {
     render() {
         return (
             <div className='table-responsive-md'>
-                <div className='box'>Horario de rutina de ejercicios</div>
+                <div className='cajitaU'>Horario de rutina de ejercicios</div>
                 <table className="table table-orange table-hover table-bordered">
                     <thead>
                         <tr>
