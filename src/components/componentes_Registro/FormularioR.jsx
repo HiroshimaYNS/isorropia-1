@@ -15,17 +15,17 @@ class FormularioR extends React.Component {
                         <input type="text1" class="form-control" placeholder="Nombre" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     </div>
                     <div class="input-group mb-3">
-                        <input type="text1" class="form-control" placeholder="Apellido" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                        <input type="text1" class="form-control" placeholder="Apellido*" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     </div>
                     <div class="input-group mb-3">
-                        <input type="text1" class="form-control mr-2" placeholder="Edad" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                        <input type="text1" class="form-control" placeholder="Peso" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                        <input type="text1" class="form-control mr-2" placeholder="Edad*" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                        <input type="text1" class="form-control" placeholder="Peso*" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" class="form-control" placeholder="Contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                        <input type="password" class="form-control" placeholder="Contraseña*" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" class="form-control" placeholder="Confirmar Contraseña" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                        <input type="password" class="form-control" placeholder="Confirmar Contraseña*" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     </div>
                     <a className='BotonR' href="/menu">
                         <span></span>

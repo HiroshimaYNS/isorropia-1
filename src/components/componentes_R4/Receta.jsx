@@ -13,7 +13,7 @@ class Receta4 extends React.Component{
                     <br/>
                     <h2>Ingredientes</h2>
                     <lo>
-                    <li>Rabanos al gusto</li>
+                    <li>Rábanos al gusto</li>
                     <li>1 pepino</li>
                     <li>1/2 Jitomates cherry rojo y amarillo</li>
                     <li>Mix de hojas verdes</li>

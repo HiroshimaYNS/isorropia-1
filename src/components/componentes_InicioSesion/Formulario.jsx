@@ -15,7 +15,7 @@ class Formulario extends React.Component{
                 <br/>
                 <br/>
                 <div className='centrado'>
-                <h1 className='formuregistro'>Crea tu cuenta</h1>              
+                <h1 className='formuregistro'>Inicia Sesion</h1>              
                     <div className='form-group'>
                         <br/>
                 <div class="input-group mb-3">

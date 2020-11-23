@@ -12,10 +12,10 @@ class Receta extends React.Component{
                     <h2>Ingredientes</h2>
                     <lo>
                     <li>Tomate</li>
-                    <li>Atun</li>
+                    <li>Atún</li>
                     <li>Champiñones</li>
                     <li>Calabacion (u otra verdura disponible)</li>
-                    <li> Oregano</li>
+                    <li>Orégano</li>
                     <li>Queso light (o Normal)</li>
                     </lo>
                 </div>

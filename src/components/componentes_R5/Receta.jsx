@@ -15,7 +15,7 @@ class Receta5 extends React.Component{
                     <lo>
                     <li>1 mango mediano</li>
                     <li>2 cucharadas de yogur natural descremada</li>
-                    <li>1 chorrito de nectar de mango</li>
+                    <li>1 chorrito de néctar de mango</li>
                     <li>Hielo</li>
                     </lo>
                 </div>
