@@ -3,7 +3,6 @@ import '../../styles/Registro.css'
 import { Link } from 'react-router-dom'
 
 
-
 class FormularioR extends React.Component {
 
     render() {
@@ -41,7 +40,6 @@ class FormularioR extends React.Component {
     }
 }
 export default FormularioR;
-
 {/* <div class="input-group-append">
                     <span class="input-group-text" id="basic-addon2">@ejemplo</span>
                 </div> */}

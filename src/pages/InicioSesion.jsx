@@ -16,7 +16,6 @@ function InicioSesion(){
                     <div className='col-md-6 col-sm-12'>
                     <Formulario />
                     {/*<Boton /> */}
-
                     </div>
                     <ImagenLateral/>
                     </div>

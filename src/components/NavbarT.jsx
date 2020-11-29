@@ -25,7 +25,6 @@ class NavbarT extends React.Component {
                                     <a className="nav-link white" href="/perfil">Perfil</a>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                     <nav className="NavbarR navbar-dark navbar-style">

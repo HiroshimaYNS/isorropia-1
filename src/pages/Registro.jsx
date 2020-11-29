@@ -4,9 +4,6 @@ import '../styles/Registro.css'
 import Navbar from '../components/componentes_InicioSesion/Navbar'
 
 
-
-
-
 function Registro(){
     return(            
         <div className='fondo'>
