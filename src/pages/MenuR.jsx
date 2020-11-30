@@ -25,7 +25,7 @@ class MenuR extends React.Component {
         if (valorBuscar !== "") {
             this.funcionInput(e.target.value);
         } else {
-            this.traerRecetaDeApi();
+            this.setState({receta: this.state.recetaBackup});
         }
     }
 

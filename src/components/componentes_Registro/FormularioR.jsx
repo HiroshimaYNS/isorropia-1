@@ -33,6 +33,13 @@ class FormularioR extends React.Component {
                         <span></span>
                         Registrarse
                     </a>
+                    <a className='BotonR' href="/menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Demo
+                    </a>
                     <br/>
                 </div>
             </div>

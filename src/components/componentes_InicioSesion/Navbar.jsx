@@ -6,8 +6,8 @@ class Navbar extends React.Component {
     render() {
         return (
             <div className=''>
-                <nav class="Navbar navbar navbar-light ">
-                    <a class="navbar-brand" href="#">
+                <nav className="Navbar navbar navbar-light ">
+                    <a className="navbar-brand" href="#">
                     <p className ='isorropia ml-4'>
                     ISORROPIA
                     </p>
