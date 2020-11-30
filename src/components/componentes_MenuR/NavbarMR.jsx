@@ -2,40 +2,6 @@ import React from 'react';
 import '../../styles/estilos_recetas/Receta.css';
 import axios from 'axios';
 class NavbarMR extends React.Component {
-    state = {
-        receta: [],
-        recetaBackup: [],
-    };
-
-    componentDidMount() {
-        this.traerRecetaDeApi();
-    }
-
-    traerRecetaDeApi() {
-        axios.get("http://localhost:4000/api/receta").then((respuesta) => {
-            debugger;
-            console.log(respuesta)
-            /* this.setState({ receta: receta.data, recetaBackup: respuesta.data }); */
-        });
-    }
-
-    handleChangeFiltroInput = (e) => {
-        const valorBuscar = e.target.value;
-        if (valorBuscar !== "") {
-            this.functionInput(e.target.value);
-        } else {
-            this.traerRecetaDeApi();
-        }
-    }
-
-    funcionInput(buscar) {
-        const resultadosInput = this.state.traerRecetaDeApi.filter((receta) => {
-            return (
-                receta.nameReceta.toLowerCase().indexOf(buscar.toLowerCase()) !== -1
-            );
-        });
-        this.setState({ receta: resultadosInput });
-    } 
 
 
     render() {
@@ -67,7 +33,7 @@ class NavbarMR extends React.Component {
                     <nav className="NavbarR navbar-dark navbar-style">
                         <div className='box'>
                             <form>
-                                <input className='inputi' type="text" name='' placeholder='Receta'  />
+                                <input className='inputi' type="text" name='' placeholder='Receta' onChange={this.props.OnchangeFiltro} />
                                 <input className='inputi' type="submit" name='' value='Buscar' />
                             </form>
                         </div>
