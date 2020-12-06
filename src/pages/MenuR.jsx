@@ -15,7 +15,7 @@ class MenuR extends React.Component {
     }
 
     traerRecetaDeApi() {
-        axios.get("http://localhost:4000/api/receta").then((respuesta) => {
+        axios.get("https://backend-isorropia.vercel.app/api/receta").then((respuesta) => {
             this.setState({ receta: respuesta.data, recetaBackup: respuesta.data });
         });
     }
